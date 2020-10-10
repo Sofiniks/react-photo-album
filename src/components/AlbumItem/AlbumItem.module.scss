@@ -1,0 +1,26 @@
+.album {
+  display: block;
+  background: #fff;
+  margin-bottom: 2rem;
+  box-shadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 3rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 420px) {
+  .album {
+    padding: 2rem;
+  }
+}
+
+h4 {
+  margin-bottom: 1.25rem;
+  letter-spacing: 0.1rem;
+}
+
+img {
+  margin-bottom: 1rem;
+}

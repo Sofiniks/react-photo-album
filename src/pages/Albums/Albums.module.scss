@@ -1,0 +1,15 @@
+.albumsList {
+  width: 85vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  column-gap: 1.8rem;
+}
+
+@media screen and (max-width: 420px) {
+  .albumsList {
+    grid-template-columns: 280px;
+    margin: 0 auto;
+    justify-content: center;
+  }
+}
